@@ -1,0 +1,15 @@
+{
+  "title": "Current torque and stability calculations",
+  "updated": "2026-10-29",
+  "timezone": "Asia/Bangkok",
+  "document": "stability_analysis.md",
+  "source": "Current conversation, verified CAD audit, fresh calculations and critically reviewed archived concepts",
+  "archived_document_ideas_reviewed": true,
+  "archived_numeric_claims_accepted_as_verified": false,
+  "legacy_document_content_reused": true,
+  "CAD_modified": false,
+  "summary": "Current torque and stability calculations; coordinated R1 build plan, hardware interfaces and explicitly assumed load calculations.",
+  "userFacing": true,
+  "document_sha256": "1CEFF61E607F748589A28497646A77CF005229797D6124CA16F0C558954A6C74",
+  "status": "Current documentation; CAD changes pending; payload capacity unverified"
+}

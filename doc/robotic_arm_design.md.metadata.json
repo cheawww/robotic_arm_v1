@@ -1,0 +1,15 @@
+{
+  "title": "Current robot-arm design brief",
+  "updated": "2026-10-29",
+  "timezone": "Asia/Bangkok",
+  "document": "robotic_arm_design.md",
+  "source": "Current conversation, verified CAD audit, fresh calculations and critically reviewed archived concepts",
+  "archived_document_ideas_reviewed": true,
+  "archived_numeric_claims_accepted_as_verified": false,
+  "legacy_document_content_reused": true,
+  "CAD_modified": false,
+  "summary": "Current robot-arm design brief; coordinated R1 build plan, hardware interfaces and explicitly assumed load calculations.",
+  "userFacing": true,
+  "document_sha256": "414AF3D6F4E42ECA1C4D30F3402FFD92F18EF8663C09FF121CFFF77ED3815245",
+  "status": "Current documentation; CAD changes pending; payload capacity unverified"
+}

@@ -1,0 +1,369 @@
+{
+  "updated": "2026-10-29",
+  "timezone": "Asia/Bangkok",
+  "provenance": "Current conversation, verified native audit, fresh calculations and reviewed archived concepts; archived numeric claims are not verified inputs",
+  "document_revision": "R1 integrated 2026-10-29",
+  "archived_design_documents_reviewed": true,
+  "documentation_only_no_CAD_edits": true,
+  "requirements": {
+    "confirmed_horizontal_reach_m": 0.5,
+    "discussed_payload_target_kg": 0.5,
+    "verified_payload_rating_kg": null,
+    "user_motor_marking": "AEI.th NEMA17 42BYGH40, lot 032025",
+    "motor_ratings_confirmed": false,
+    "user_measured_shaft_projection_mm": 25,
+    "printer": "Bambu Lab P2S",
+    "candidate_materials": [
+      "PLA",
+      "PETG"
+    ]
+  },
+  "source_models": [
+    {
+      "name": "end plate.SLDPRT",
+      "path": "E:\\PROJECT\\project_robot_arm\\model\\plenetary gear box\\solidworks\\end plate.SLDPRT",
+      "sha256": "AC5CAC29AFB80D4A4541AD68B90EF6FF22C4E5AF304A21D9931D7DBA87CD44A1",
+      "matches_audit": true
+    },
+    {
+      "name": "gear carrier-2.SLDPRT",
+      "path": "E:\\PROJECT\\project_robot_arm\\model\\plenetary gear box\\solidworks\\gear carrier-2.SLDPRT",
+      "sha256": "CBB8F2D9126E17A9D0858D9B017299338DC4017FDBD6E8019EC51175F28F7C6C",
+      "matches_audit": true
+    },
+    {
+      "name": "gear carrier.SLDPRT",
+      "path": "E:\\PROJECT\\project_robot_arm\\model\\plenetary gear box\\solidworks\\gear carrier.SLDPRT",
+      "sha256": "0E493647E52C1CE1560C6CB4F1F45173D841B9B7A7AAAFA35FF567B2C3D1FD58",
+      "matches_audit": true
+    },
+    {
+      "name": "motor plate.SLDPRT",
+      "path": "E:\\PROJECT\\project_robot_arm\\model\\plenetary gear box\\solidworks\\motor plate.SLDPRT",
+      "sha256": "00B142A31E42AA9F27C0B85FDD9ABE21A0887DFB077E2DF5927B4C6BC255CC72",
+      "matches_audit": true
+    },
+    {
+      "name": "plenetary gear.SLDPRT",
+      "path": "E:\\PROJECT\\project_robot_arm\\model\\plenetary gear box\\solidworks\\plenetary gear.SLDPRT",
+      "sha256": "CC1814A475A423A99E45EAADCE40FAAC1B06A8EEB28AFB33E44A85FF939799CE",
+      "matches_audit": true
+    },
+    {
+      "name": "ring gear.SLDPRT",
+      "path": "E:\\PROJECT\\project_robot_arm\\model\\plenetary gear box\\solidworks\\ring gear.SLDPRT",
+      "sha256": "B43D908B9F921A5E071A67405F114B3E158109E6CF4421D427852157FE5578F4",
+      "matches_audit": true
+    },
+    {
+      "name": "sun gear.SLDPRT",
+      "path": "E:\\PROJECT\\project_robot_arm\\model\\plenetary gear box\\solidworks\\sun gear.SLDPRT",
+      "sha256": "4CA5F2BE99ABB9E9C66D266AB1E3B7E41DB312996065927E4A37BC5C3BC8F68F",
+      "matches_audit": true
+    }
+  ],
+  "nominal_gearing": {
+    "sun_teeth": 15,
+    "planet_teeth": 15,
+    "ring_teeth": 45,
+    "planets_per_stage": 3,
+    "stages": 2,
+    "carrier_plates_per_stage": 2,
+    "stage_reduction": 4,
+    "total_reduction": 16,
+    "transverse_module_mm": 1.25,
+    "sun_pitch_diameter_mm": 18.75,
+    "ring_pitch_diameter_mm": 56.25,
+    "pin_radius_mm": 18.75,
+    "pin_PCD_mm": 37.5,
+    "pin_angles_deg": [
+      0,
+      120,
+      240
+    ],
+    "adjacent_planet_centres_mm": 32.47595264191645,
+    "adjacent_planet_tip_envelope_gap_mm": 11.22595264191645
+  },
+  "saved_CAD": {
+    "ring_height_mm": 42,
+    "ring_outside_diameter_mm": 70,
+    "ring_case_holes_mm": 3.4,
+    "case_PCD_mm": 65,
+    "planet_bore_mm": 10,
+    "carrier_plate_thickness_mm": 5,
+    "carrier_outside_diameter_mm": 52,
+    "carrier_pin_holes_mm": 5,
+    "carrier_counterbore_diameter_mm": 10,
+    "carrier_counterbore_depth_mm": 3,
+    "carrier_counterbore_floor_mm": 2,
+    "carrier1_centre_opening_mm": 22,
+    "carrier2_gear_central_cylinder_mm": 5.5,
+    "sun_shaft_passage_actual_cylinder_mm": 5.2,
+    "motor_case_flange_thickness_mm": 5,
+    "end_plate_case_flange_thickness_mm": 4,
+    "end_plate_total_height_mm": 10,
+    "end_plate_output_opening_mm": 23.25,
+    "output_gear_maximum_diameter_mm": 21.25,
+    "output_opening_radial_clearance_mm": 1.0,
+    "end_plate_hole_centre_mismatch_mm": 0.0,
+    "motor_plate_hole_centre_mismatch_mm": 0.15370956787850076,
+    "clearance_hole_outer_ligament_mm": 0.8,
+    "proposed_M3_thread_outer_ligament_mm": 1.0
+  },
+  "selected_planet_bearings": {
+    "designation": "685ZZ",
+    "bore_mm": 5,
+    "outside_mm": 11,
+    "width_mm": 5,
+    "per_planet": 2,
+    "total": 12,
+    "nominal_stack_mm": 10,
+    "seat_revision_implemented": false,
+    "final_printed_seat_allowance_mm": null
+  },
+  "pending_case_fastening": {
+    "status": "proposed_not_implemented",
+    "method": "direct-tapped printed ring, screws from both ends, no separate case nuts",
+    "ring_finished_pilot_mm": 2.5,
+    "tap": "M3 x 0.5 cutting tap",
+    "usable_thread_depth_each_end_mm": 10,
+    "plate_clearance_mm": 3.4,
+    "screw": "M3x12",
+    "quantity": 12,
+    "washers_in_length_calculation": false,
+    "motor_end_engagement_mm": 7,
+    "cover_end_engagement_mm": 8,
+    "opposed_screw_tip_gap_in_42mm_ring_mm": 27,
+    "strength_validated": false
+  },
+  "illustrative_load_example": {
+    "all_component_masses_and_COM_positions_assumed": true,
+    "g_m_per_s2": 9.80665,
+    "assumed_link_lengths_m": [
+      0.22,
+      0.2,
+      0.08
+    ],
+    "elbow_position_m": 0.22,
+    "rows": [
+      {
+        "component": "payload",
+        "assumed_mass_kg": 0.5,
+        "shoulder_horizontal_distance_m": 0.5,
+        "shoulder_gravity_torque_Nm": 2.4516625,
+        "elbow_gravity_torque_Nm": 1.3729310000000001
+      },
+      {
+        "component": "gripper_camera",
+        "assumed_mass_kg": 0.12,
+        "shoulder_horizontal_distance_m": 0.46,
+        "shoulder_gravity_torque_Nm": 0.54132708,
+        "elbow_gravity_torque_Nm": 0.28243152
+      },
+      {
+        "component": "wrist",
+        "assumed_mass_kg": 0.16,
+        "shoulder_horizontal_distance_m": 0.42,
+        "shoulder_gravity_torque_Nm": 0.65900688,
+        "elbow_gravity_torque_Nm": 0.3138128
+      },
+      {
+        "component": "forearm",
+        "assumed_mass_kg": 0.15,
+        "shoulder_horizontal_distance_m": 0.32,
+        "shoulder_gravity_torque_Nm": 0.4707192,
+        "elbow_gravity_torque_Nm": 0.14709975
+      },
+      {
+        "component": "elbow_gearbox",
+        "assumed_mass_kg": 0.2,
+        "shoulder_horizontal_distance_m": 0.22,
+        "shoulder_gravity_torque_Nm": 0.4314926,
+        "elbow_gravity_torque_Nm": 0.0
+      },
+      {
+        "component": "upper_link",
+        "assumed_mass_kg": 0.18,
+        "shoulder_horizontal_distance_m": 0.11,
+        "shoulder_gravity_torque_Nm": 0.19417167,
+        "elbow_gravity_torque_Nm": null
+      }
+    ],
+    "shoulder_gravity_torque_Nm": 4.74837993,
+    "elbow_gravity_torque_Nm": 2.11627507,
+    "payload_only_shoulder_Nm": 2.4516625,
+    "payload_only_elbow_Nm": 1.3729310000000001,
+    "illustrative_design_multiplier": 2,
+    "shoulder_with_multiplier_Nm": 9.49675986,
+    "elbow_with_multiplier_Nm": 4.23255014
+  },
+  "hypothetical_drive_comparison_not_motor_test": [
+    {
+      "arrangement": "two_planetary_stages",
+      "reduction": 16,
+      "assumed_efficiency": 0.7224999999999999,
+      "hypothetical_motor_running_torque_Nm": 0.2,
+      "hypothetical_input_rpm": 100,
+      "calculated_output_torque_Nm": 2.312,
+      "calculated_output_rpm": 6.25
+    },
+    {
+      "arrangement": "5_to_1_belt_one_planetary",
+      "reduction": 20,
+      "assumed_efficiency": 0.8075,
+      "hypothetical_motor_running_torque_Nm": 0.2,
+      "hypothetical_input_rpm": 100,
+      "calculated_output_torque_Nm": 3.23,
+      "calculated_output_rpm": 5.0
+    },
+    {
+      "arrangement": "5_to_1_belt_two_planetary",
+      "reduction": 80,
+      "assumed_efficiency": 0.6863749999999998,
+      "hypothetical_motor_running_torque_Nm": 0.2,
+      "hypothetical_input_rpm": 100,
+      "calculated_output_torque_Nm": 10.981999999999998,
+      "calculated_output_rpm": 1.25
+    }
+  ],
+  "native_motion_evidence": {
+    "NativeStudy": "16_to_1_Gearbox_Demo",
+    "SavedStudyReopened": true,
+    "FrameCount": 9,
+    "ComponentCount": 69,
+    "AllCoreRatiosAndOrbitsCorrect": true,
+    "All56HardwareInstancesFollowHosts": true,
+    "InputSpeedRpm": 9.549296585513721,
+    "DurationSeconds": 2,
+    "InputEndDegrees": 114.59155902616465,
+    "Stage1EndDegrees": 28.64788975654116,
+    "OutputEndDegrees": 7.16197243913529,
+    "MaximumTransformError": 2.9753977059954195e-14,
+    "Scope": "Kinematic animation, no load/contact-force validation"
+  },
+  "end_plate_static_fit": {
+    "components": 3,
+    "overlaps": 0,
+    "Y_envelope_mm": [
+      57,
+      67
+    ],
+    "complete_moving_assembly_updated": false
+  },
+  "external_dimension_references": {
+    "bearing": "https://www.nsk.com/engineering/products/bearings/ball-bearings/deep-groove-ball-bearings/extra-small-ball-bearings-and-miniature-ball-bearings-metric-series/685zz-esm-md.html",
+    "tap_drill": "https://guhring.com/media/catalogs/lgbkp3ieki4.pdf",
+    "6804_envelope_example_not_selected_output_bearing": "https://www.ezo-brg.co.jp/english/product/spec.php?eid=01927",
+    "helical_gear_force_reference": "https://www.khkgears.co.jp/gear_technology/intermediate_guide/khk423_1/",
+    "example_stepper_driver_not_confirmed_selection": "https://www.analog.com/en/products/tmc2209.html"
+  },
+  "unresolved": [
+    "11mm planet bearing seats",
+    "central sun support",
+    "output bearing support",
+    "helical thrust retention",
+    "case thread strength",
+    "custom pin procurement and retention",
+    "bearing inner-ring washer contact",
+    "actual motor running torque",
+    "actual arm masses",
+    "backlash, load capacity and base stability"
+  ],
+  "required_motor_torque_study_not_motor_capability": [
+    {
+      "arrangement": "two_planetary_stages",
+      "reduction_before_final_mesh": 16,
+      "assumed_efficiency": 0.7224999999999999,
+      "assumed_final_external_mesh_ratio": 1,
+      "additional_final_mesh_loss_included": false,
+      "reference_joint_rpm": 1,
+      "motor_rpm_for_reference_joint_speed": 16,
+      "required_shoulder_running_torque_Nm": 0.8215190190311419,
+      "required_elbow_running_torque_Nm": 0.3661375553633218
+    },
+    {
+      "arrangement": "5_to_1_belt_one_planetary",
+      "reduction_before_final_mesh": 20,
+      "assumed_efficiency": 0.8075,
+      "assumed_final_external_mesh_ratio": 1,
+      "additional_final_mesh_loss_included": false,
+      "reference_joint_rpm": 1,
+      "motor_rpm_for_reference_joint_speed": 20,
+      "required_shoulder_running_torque_Nm": 0.58803466625387,
+      "required_elbow_running_torque_Nm": 0.2620774080495356
+    },
+    {
+      "arrangement": "5_to_1_belt_two_planetary",
+      "reduction_before_final_mesh": 80,
+      "assumed_efficiency": 0.6863749999999998,
+      "assumed_final_external_mesh_ratio": 1,
+      "additional_final_mesh_loss_included": false,
+      "reference_joint_rpm": 1,
+      "motor_rpm_for_reference_joint_speed": 80,
+      "required_shoulder_running_torque_Nm": 0.17295137242760883,
+      "required_elbow_running_torque_Nm": 0.0770815906028046
+    }
+  ],
+  "R1_housing_proposal": {
+    "implemented_in_CAD": false,
+    "ring_and_case_flange_OD_mm": 74,
+    "ring_height_mm": 42,
+    "case_PCD_mm": 65,
+    "carrier_plate_thickness_mm": 5,
+    "gear_tooth_geometry_changed": false,
+    "ring_thread_outer_ligament_mm": 3.0,
+    "plate_clearance_outer_ligament_mm": 2.8,
+    "strength_validated": false,
+    "instruction": "Update relevant outer annular-cut boundaries and recheck external envelope; retain internal teeth, cavities, PCDs and axial positions"
+  },
+  "base_layout_example_not_released_base": {
+    "source_of_layout_idea": "reviewed archive; calculation uses current explicit mass study",
+    "footprint_mm": [
+      350,
+      260
+    ],
+    "shoulder_horizontal_offset_mm": [
+      0,
+      0
+    ],
+    "arm_mass_including_payload_kg": 1.31,
+    "arm_first_moment_kg_m": 0.4842,
+    "front_only_zero_margin_fixed_mass_kg": 1.4568571428571433,
+    "all_yaw_zero_margin_fixed_mass_kg": 2.4146153846153844,
+    "examples": [
+      {
+        "fixed_mass_at_base_centre_kg": 1,
+        "whole_mass_kg": 2.31,
+        "COM_radius_mm": 209.61038961038963,
+        "front_margin_mm": -34.61038961038963,
+        "minimum_margin_over_all_yaw_mm": -79.61038961038963
+      },
+      {
+        "fixed_mass_at_base_centre_kg": 2,
+        "whole_mass_kg": 3.31,
+        "COM_radius_mm": 146.28398791540786,
+        "front_margin_mm": 28.716012084592137,
+        "minimum_margin_over_all_yaw_mm": -16.283987915407863
+      },
+      {
+        "fixed_mass_at_base_centre_kg": 3,
+        "whole_mass_kg": 4.3100000000000005,
+        "COM_radius_mm": 112.34338747099768,
+        "front_margin_mm": 62.65661252900232,
+        "minimum_margin_over_all_yaw_mm": 17.656612529002317
+      }
+    ],
+    "dynamic_stability_validated": false
+  },
+  "output_mesh_force_study_not_strength_rating": {
+    "assumed_final_external_mesh_ratio": 1,
+    "input_torque_to_mesh_Nm": 4.74837993,
+    "output_gear_nominal_pitch_diameter_mm": 18.75,
+    "nominal_helix_lead_mm": 161.84,
+    "inferred_pitch_helix_angle_deg": 19.9999748474398,
+    "tangential_force_N": 506.4938592,
+    "axial_force_N": 184.34843678375205,
+    "radial_separating_force_calculated": false,
+    "actual_gearbox_load_capability_verified": false
+  }
+}

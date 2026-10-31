@@ -1,0 +1,15 @@
+{
+  "title": "SolidWorks files and current bill of materials",
+  "updated": "2026-10-29",
+  "timezone": "Asia/Bangkok",
+  "document": "solidworks_parts_list.md",
+  "source": "Current conversation, verified CAD audit, fresh calculations and critically reviewed archived concepts",
+  "archived_document_ideas_reviewed": true,
+  "archived_numeric_claims_accepted_as_verified": false,
+  "legacy_document_content_reused": true,
+  "CAD_modified": false,
+  "summary": "SolidWorks files and current bill of materials; coordinated R1 build plan, hardware interfaces and explicitly assumed load calculations.",
+  "userFacing": true,
+  "document_sha256": "CB80EB665773AB22C52C70F7D9349A12FFFE6B8D04A901E524DDF44FC0EA0AC5",
+  "status": "Current documentation; CAD changes pending; payload capacity unverified"
+}
